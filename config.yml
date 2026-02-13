@@ -1,0 +1,100 @@
+# Galaxy Profile README Configuration
+# Copy this file to config.yml and customize it to make it your own!
+#
+# Usage:
+#   cp config.example.yml config.yml
+#   # Edit config.yml with your details
+#   python -m generator.main
+#
+# Demo mode (no API calls, uses this file directly):
+#   python -m generator.main --demo
+
+# Your GitHub username (required)
+username: MiguelPim01
+
+# Profile information displayed in the galaxy header
+profile:
+  name: "Miguel Vieira Machado Pim"
+  tagline: "Computer Science Student & Machine Learning Engineer"
+  company: "Labic (Laboratório de Internet e Ciência de Dados)"
+  location: "Vitória, ES, Brazil"
+  bio: |
+    Passionate about leveraging technology to solve real-world problems. 
+    With a strong foundation in computer science and hands-on experience in machine learning, I thrive on creating innovative solutions that drive impact.
+  philosophy: '"One day or day one, you decide."'
+
+# Social links displayed at the bottom of the profile
+social:
+  email: "miguelmip02@gmail.com"
+  linkedin: "https://www.linkedin.com/in/miguel-vieira-machado-pim/?locale=en-US"
+  website: ""
+
+# Galaxy arms represent your core focus areas
+# Each arm spirals out from the center with its own color and tech items
+# Available colors: "synapse_cyan", "dendrite_violet", "axon_amber"
+galaxy_arms:
+  - name: "Machine Learning"
+    color: "dendrite_violet"
+    items:
+      - "Python"
+      - "PyTorch"
+      - "Statistics"
+      - "Scikit-learn"
+  - name: "Backend"
+    color: "synapse_cyan"
+    items:
+      - "Python"
+      - "Java"
+      - "Spring Boot"
+      - "PostgreSQL"
+  - name: "MLOps & DevOps"
+    color: "axon_amber"
+    items:
+      - "Docker"
+      - "GitHub Actions"
+      - "AWS"
+      - "MLFlow"
+
+# Featured projects shown as constellation stars
+# Each project needs:
+#   repo: "owner/repo-name"   — GitHub repository path
+#   arm: 0-2                  — Which galaxy arm to associate with (index)
+#   description: "..."        — Short description shown on the card
+projects:
+  - repo: "MiguelPim01/model-training-pipeline"
+    arm: 0
+    description: "Pipeline for training and deploying machine learning models that contemplates the entire ML lifecycle."
+  - repo: "MiguelPim01/PROJETO-INTEGRADO-I"
+    arm: 1
+    description: "Project developed for students so they can better see the connection of discipline and its prerequisites."
+
+# Theme color overrides (optional — defaults to deep space palette)
+# All values must be valid hex color codes (#RRGGBB)
+theme:
+  void: "#080c14"              # Darkest background
+  nebula: "#0f1623"            # Card backgrounds
+  star_dust: "#1a2332"         # Borders, dividers
+  synapse_cyan: "#00d4ff"      # Primary accent (arm color 1)
+  dendrite_violet: "#a78bfa"   # Secondary accent (arm color 2)
+  axon_amber: "#ffb020"        # Tertiary accent (arm color 3)
+  text_bright: "#f1f5f9"       # Primary text
+  text_dim: "#94a3b8"          # Secondary text
+  text_faint: "#64748b"        # Muted text, labels
+
+# Stats configuration — which metrics to show on the telemetry card
+stats:
+  metrics:
+    - "commits"
+    - "stars"
+    - "prs"
+    - "issues"
+    - "repos"
+
+# Language display settings
+languages:
+  exclude:                     # Languages to hide from the telemetry chart
+    - "HTML"
+    - "CSS"
+    - "Shell"
+    - "Makefile"
+  max_display: 8               # Maximum number of languages to show
