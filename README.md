@@ -33,10 +33,10 @@
 
 <br/>
 
-Building tools that make developers' lives easier.
-Passionate about distributed systems, developer experience, and the open-source ecosystem.
+Passionate about leveraging technology to solve real-world problems. 
+With a strong foundation in computer science and hands-on experience in machine learning, I thrive on creating innovative solutions that drive impact.
 
-**Currently at** Stellar Labs — San Francisco, CA
+**Currently at** Labic (Laboratório de Internet e Ciência de Dados) — Vitória, ES, Brazil
 </details>
 
 <br/>
