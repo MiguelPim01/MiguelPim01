@@ -97,4 +97,5 @@ languages:
     - "CSS"
     - "Shell"
     - "Makefile"
+    - "Jupyter Notebook"
   max_display: 8               # Maximum number of languages to show
