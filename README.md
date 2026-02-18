@@ -1,9 +1,3 @@
-<!-- Galaxy Profile README Template
-     Customize this file with your own info, then rename it to README.md
-     in your GitHub profile repo (github.com/YOUR_USERNAME/YOUR_USERNAME).
-     The SVG paths below point to assets/generated/ which are auto-generated
-     by the GitHub Actions workflow or by running: python -m generator.main -->
-
 <div align="center">
   <img src="./assets/generated/galaxy-header.svg" width="850" alt="Galaxy Header"/>
 </div>
@@ -42,10 +36,10 @@ With a strong foundation in computer science and hands-on experience in machine 
 <br/>
 
 <div align="center">
-  <a href="mailto:nyx@stellarlabs.dev">
+  <a href="miguelmip02@gmail.com">
     <img src="https://img.shields.io/badge/-Email-080c14?style=for-the-badge&logo=gmail&logoColor=00d4ff" alt="Email"/>
   </a>
-  <a href="https://www.linkedin.com/in/nyxorion/">
+  <a href="https://www.linkedin.com/in/miguel-vieira-machado-pim/?locale=en-US">
     <img src="https://img.shields.io/badge/-LinkedIn-080c14?style=for-the-badge&logo=linkedin&logoColor=a78bfa" alt="LinkedIn"/>
   </a>
 </div>

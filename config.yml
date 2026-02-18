@@ -43,10 +43,10 @@ galaxy_arms:
   - name: "Backend"
     color: "synapse_cyan"
     items:
-      - "Python"
       - "Java"
       - "Spring Boot"
       - "PostgreSQL"
+      - "RabbitMQ"
   - name: "MLOps & DevOps"
     color: "axon_amber"
     items:
