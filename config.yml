@@ -40,13 +40,14 @@ galaxy_arms:
       - "PyTorch"
       - "Statistics"
       - "Scikit-learn"
+      - "MLFlow"
   - name: "Backend"
     color: "synapse_cyan"
     items:
       - "Java"
+      - "Kotlin"
       - "Spring Boot"
-      - "PostgreSQL"
-      - "RabbitMQ"
+      - "Android Studio"
   - name: "MLOps & DevOps"
     color: "axon_amber"
     items:
@@ -67,6 +68,9 @@ projects:
   - repo: "MiguelPim01/PROJETO-INTEGRADO-I"
     arm: 1
     description: "Project developed for students so they can better see the connection of discipline and its prerequisites."
+  - repo: "MiguelPim01/book-date-app"
+    arm: 1
+    description: "Mobile app for connecting people based on each user's literary preferences."
 
 # Theme color overrides (optional — defaults to deep space palette)
 # All values must be valid hex color codes (#RRGGBB)
